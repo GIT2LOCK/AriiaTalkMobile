@@ -39,3 +39,16 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local backups
+*.backup
+*.bak
+App.tsx.backup*
+
+# Local editor files
+.vscode/
